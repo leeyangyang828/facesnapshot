@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21307A961EF663ED007F222F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21A28B8A1EF640A900D80EAA /* Accelerate.framework */; };
+		21307AF41EF742D4007F222F /* ScreenShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307AF21EF742D4007F222F /* ScreenShotViewController.swift */; };
+		21307AF51EF742D4007F222F /* ScreenShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21307AF31EF742D4007F222F /* ScreenShotViewController.xib */; };
+		21307AFA1EF74760007F222F /* captureScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307AF61EF74760007F222F /* captureScreen.swift */; };
+		21307AFB1EF74760007F222F /* fillImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307AF71EF74760007F222F /* fillImageButton.swift */; };
+		21307AFC1EF74760007F222F /* filterClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307AF81EF74760007F222F /* filterClass.swift */; };
+		21307AFD1EF74760007F222F /* processPointsClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307AF91EF74760007F222F /* processPointsClass.swift */; };
+		21307B171EF747A2007F222F /* circlePhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B011EF747A2007F222F /* circlePhoto.png */; };
+		21307B191EF747A2007F222F /* deleteCross.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B031EF747A2007F222F /* deleteCross.png */; };
+		21307B1B1EF747A2007F222F /* eltestos.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B051EF747A2007F222F /* eltestos.png */; };
+		21307B201EF747A2007F222F /* photoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B0A1EF747A2007F222F /* photoButton.png */; };
+		21307B231EF747A2007F222F /* saveScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B0D1EF747A2007F222F /* saveScreen.png */; };
+		21307B241EF747A2007F222F /* shareButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B0E1EF747A2007F222F /* shareButton.png */; };
+		21307B251EF747A2007F222F /* swapCamera.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B0F1EF747A2007F222F /* swapCamera.png */; };
+		21307B261EF747A2007F222F /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21307B101EF747A2007F222F /* test.jpg */; };
+		21307B281EF747A2007F222F /* undoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 21307B121EF747A2007F222F /* undoButton.png */; };
+		21307B351EF77DDD007F222F /* DlibWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21307B331EF77DDD007F222F /* DlibWrapper.mm */; };
+		21307B361EF77DDD007F222F /* SessionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21307B341EF77DDD007F222F /* SessionHandler.swift */; };
+		2140D1171EF48838004D39E5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140D1151EF48838004D39E5 /* MainViewController.swift */; };
+		2140D1181EF48838004D39E5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2140D1161EF48838004D39E5 /* MainViewController.xib */; };
+		2140D11B1EF4886A004D39E5 /* CameraFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2140D1191EF4886A004D39E5 /* CameraFilterViewController.swift */; };
+		2140D11C1EF4886A004D39E5 /* CameraFilterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2140D11A1EF4886A004D39E5 /* CameraFilterViewController.xib */; };
+		217C89F51EFAF14E00B500BF /* mask_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 217C89F41EFAF14E00B500BF /* mask_4.png */; };
+		21EACACA1EF790AF00FA2610 /* libdlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21EACAC81EF790AF00FA2610 /* libdlib.a */; };
+		21EACACB1EF790AF00FA2610 /* shape_predictor_68_face_landmarks.dat in Resources */ = {isa = PBXBuildFile; fileRef = 21EACAC91EF790AF00FA2610 /* shape_predictor_68_face_landmarks.dat */; };
+		21F9F0971EF189300075341C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0961EF189300075341C /* AppDelegate.swift */; };
+		21F9F09F1EF189300075341C /* Snap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F09D1EF189300075341C /* Snap.xcdatamodeld */; };
+		21F9F0A11EF189300075341C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0A01EF189300075341C /* Assets.xcassets */; };
+		21F9F0AC1EF189940075341C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0AB1EF189940075341C /* Default-568h@2x.png */; };
+		21F9F0B51EF1899E0075341C /* ExampleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0AE1EF1899E0075341C /* ExampleCollectionViewCell.swift */; };
+		21F9F0B61EF1899E0075341C /* ExampleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0AF1EF1899E0075341C /* ExampleCollectionViewCell.xib */; };
+		21F9F0B71EF1899E0075341C /* ImageProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0B01EF1899E0075341C /* ImageProcessViewController.swift */; };
+		21F9F0B81EF1899E0075341C /* ImageProcessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0B11EF1899E0075341C /* ImageProcessViewController.xib */; };
+		21F9F0BA1EF1899E0075341C /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0B41EF1899E0075341C /* splash.png */; };
+		21F9F0BC1EF196B30075341C /* cell.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0BB1EF196B30075341C /* cell.png */; };
+		21F9F0BE1EF1AA950075341C /* DragDropiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F9F0BD1EF1AA950075341C /* DragDropiOS.framework */; };
+		21F9F0C11EF1C0D10075341C /* banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0BF1EF1C0D10075341C /* banana.png */; };
+		21F9F0C21EF1C0D10075341C /* monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0C01EF1C0D10075341C /* monkey.png */; };
+		21F9F0C71EF2242F0075341C /* DragDropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0C61EF2242F0075341C /* DragDropView.swift */; };
+		21F9F0CB1EF2D54E0075341C /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0CA1EF2D54E0075341C /* Model.swift */; };
+		21F9F0CD1EF37FE30075341C /* InfiniteCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0CC1EF37FE30075341C /* InfiniteCollectionView.swift */; };
+		21F9F0D01EF380740075341C /* ShareImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21F9F0CE1EF380740075341C /* ShareImageViewController.swift */; };
+		21F9F0D11EF380740075341C /* ShareImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0CF1EF380740075341C /* ShareImageViewController.xib */; };
+		21F9F0DC1EF3A4B70075341C /* mask_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D21EF3A4B70075341C /* mask_1.png */; };
+		21F9F0DD1EF3A4B70075341C /* mask_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D31EF3A4B70075341C /* mask_2.png */; };
+		21F9F0DE1EF3A4B70075341C /* mask_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D41EF3A4B70075341C /* mask_3.png */; };
+		21F9F0E01EF3A4B70075341C /* mask_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D61EF3A4B70075341C /* mask_5.png */; };
+		21F9F0E11EF3A4B70075341C /* mask_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D71EF3A4B70075341C /* mask_6.png */; };
+		21F9F0E21EF3A4B70075341C /* mask_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D81EF3A4B70075341C /* mask_7.png */; };
+		21F9F0E31EF3A4B70075341C /* mask_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0D91EF3A4B70075341C /* mask_8.png */; };
+		21F9F0E41EF3A4B70075341C /* mask_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0DA1EF3A4B70075341C /* mask_9.png */; };
+		21F9F0E51EF3A4B70075341C /* mask_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 21F9F0DB1EF3A4B70075341C /* mask_10.png */; };
+		D11EE7A38940F74CEC6B343F /* Pods_Snap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F14C3608C046BCEA9A0C28 /* Pods_Snap.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		19F14C3608C046BCEA9A0C28 /* Pods_Snap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Snap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F40F708359355D572707740 /* Pods-Snap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Snap/Pods-Snap.release.xcconfig"; sourceTree = "<group>"; };
+		21307AD21EF6D12B007F222F /* Snap-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snap-Bridging-Header.h"; sourceTree = "<group>"; };
+		21307AF21EF742D4007F222F /* ScreenShotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenShotViewController.swift; sourceTree = "<group>"; };
+		21307AF31EF742D4007F222F /* ScreenShotViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScreenShotViewController.xib; sourceTree = "<group>"; };
+		21307AF61EF74760007F222F /* captureScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = captureScreen.swift; sourceTree = "<group>"; };
+		21307AF71EF74760007F222F /* fillImageButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fillImageButton.swift; sourceTree = "<group>"; };
+		21307AF81EF74760007F222F /* filterClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filterClass.swift; sourceTree = "<group>"; };
+		21307AF91EF74760007F222F /* processPointsClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = processPointsClass.swift; sourceTree = "<group>"; };
+		21307B011EF747A2007F222F /* circlePhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circlePhoto.png; sourceTree = "<group>"; };
+		21307B031EF747A2007F222F /* deleteCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteCross.png; sourceTree = "<group>"; };
+		21307B051EF747A2007F222F /* eltestos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eltestos.png; sourceTree = "<group>"; };
+		21307B0A1EF747A2007F222F /* photoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoButton.png; sourceTree = "<group>"; };
+		21307B0D1EF747A2007F222F /* saveScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saveScreen.png; sourceTree = "<group>"; };
+		21307B0E1EF747A2007F222F /* shareButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareButton.png; sourceTree = "<group>"; };
+		21307B0F1EF747A2007F222F /* swapCamera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = swapCamera.png; sourceTree = "<group>"; };
+		21307B101EF747A2007F222F /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+		21307B121EF747A2007F222F /* undoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undoButton.png; sourceTree = "<group>"; };
+		21307B321EF77DDD007F222F /* DlibWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DlibWrapper.h; sourceTree = "<group>"; };
+		21307B331EF77DDD007F222F /* DlibWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DlibWrapper.mm; sourceTree = "<group>"; };
+		21307B341EF77DDD007F222F /* SessionHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionHandler.swift; sourceTree = "<group>"; };
+		2140D1151EF48838004D39E5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2140D1161EF48838004D39E5 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2140D1191EF4886A004D39E5 /* CameraFilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraFilterViewController.swift; sourceTree = "<group>"; };
+		2140D11A1EF4886A004D39E5 /* CameraFilterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraFilterViewController.xib; sourceTree = "<group>"; };
+		217C89F41EFAF14E00B500BF /* mask_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_4.png; sourceTree = "<group>"; };
+		21A28B8A1EF640A900D80EAA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		21EACAC81EF790AF00FA2610 /* libdlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdlib.a; path = lib/libdlib.a; sourceTree = "<group>"; };
+		21EACAC91EF790AF00FA2610 /* shape_predictor_68_face_landmarks.dat */ = {isa = PBXFileReference; lastKnownFileType = file; name = shape_predictor_68_face_landmarks.dat; path = lib/shape_predictor_68_face_landmarks.dat; sourceTree = "<group>"; };
+		21F9F0931EF189300075341C /* Snap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F9F0961EF189300075341C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21F9F09E1EF189300075341C /* Snap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Snap.xcdatamodel; sourceTree = "<group>"; };
+		21F9F0A01EF189300075341C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21F9F0A51EF189300075341C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F9F0AB1EF189940075341C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		21F9F0AE1EF1899E0075341C /* ExampleCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleCollectionViewCell.swift; sourceTree = "<group>"; };
+		21F9F0AF1EF1899E0075341C /* ExampleCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExampleCollectionViewCell.xib; sourceTree = "<group>"; };
+		21F9F0B01EF1899E0075341C /* ImageProcessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageProcessViewController.swift; sourceTree = "<group>"; };
+		21F9F0B11EF1899E0075341C /* ImageProcessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageProcessViewController.xib; sourceTree = "<group>"; };
+		21F9F0B41EF1899E0075341C /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		21F9F0BB1EF196B30075341C /* cell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cell.png; sourceTree = "<group>"; };
+		21F9F0BD1EF1AA950075341C /* DragDropiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DragDropiOS.framework; path = "../../Library/Developer/Xcode/DerivedData/Snap-bbmjtbrnmlbfmfdbnrdqydtjxcvu/Build/Products/Debug-iphonesimulator/DragDropiOS/DragDropiOS.framework"; sourceTree = "<group>"; };
+		21F9F0BF1EF1C0D10075341C /* banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banana.png; sourceTree = "<group>"; };
+		21F9F0C01EF1C0D10075341C /* monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = monkey.png; sourceTree = "<group>"; };
+		21F9F0C61EF2242F0075341C /* DragDropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragDropView.swift; sourceTree = "<group>"; };
+		21F9F0CA1EF2D54E0075341C /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		21F9F0CC1EF37FE30075341C /* InfiniteCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteCollectionView.swift; sourceTree = "<group>"; };
+		21F9F0CE1EF380740075341C /* ShareImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareImageViewController.swift; sourceTree = "<group>"; };
+		21F9F0CF1EF380740075341C /* ShareImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareImageViewController.xib; sourceTree = "<group>"; };
+		21F9F0D21EF3A4B70075341C /* mask_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_1.png; sourceTree = "<group>"; };
+		21F9F0D31EF3A4B70075341C /* mask_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_2.png; sourceTree = "<group>"; };
+		21F9F0D41EF3A4B70075341C /* mask_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_3.png; sourceTree = "<group>"; };
+		21F9F0D61EF3A4B70075341C /* mask_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_5.png; sourceTree = "<group>"; };
+		21F9F0D71EF3A4B70075341C /* mask_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_6.png; sourceTree = "<group>"; };
+		21F9F0D81EF3A4B70075341C /* mask_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_7.png; sourceTree = "<group>"; };
+		21F9F0D91EF3A4B70075341C /* mask_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_8.png; sourceTree = "<group>"; };
+		21F9F0DA1EF3A4B70075341C /* mask_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_9.png; sourceTree = "<group>"; };
+		21F9F0DB1EF3A4B70075341C /* mask_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask_10.png; sourceTree = "<group>"; };
+		5B17D3A06406726C1B0E7F24 /* Pods-Snap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Snap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Snap/Pods-Snap.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21F9F0901EF189300075341C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21307A961EF663ED007F222F /* Accelerate.framework in Frameworks */,
+				21F9F0BE1EF1AA950075341C /* DragDropiOS.framework in Frameworks */,
+				21EACACA1EF790AF00FA2610 /* libdlib.a in Frameworks */,
+				D11EE7A38940F74CEC6B343F /* Pods_Snap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21F9F08A1EF189300075341C = {
+			isa = PBXGroup;
+			children = (
+				21EACAC81EF790AF00FA2610 /* libdlib.a */,
+				21EACAC91EF790AF00FA2610 /* shape_predictor_68_face_landmarks.dat */,
+				21F9F0AB1EF189940075341C /* Default-568h@2x.png */,
+				21F9F0951EF189300075341C /* Snap */,
+				21F9F0941EF189300075341C /* Products */,
+				CF2CACF20225F7211E069639 /* Pods */,
+				DBC67ADB286E9363746E2C16 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21F9F0941EF189300075341C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21F9F0931EF189300075341C /* Snap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21F9F0951EF189300075341C /* Snap */ = {
+			isa = PBXGroup;
+			children = (
+				21F9F0C31EF2175C0075341C /* Supports */,
+				21F9F0AD1EF1899E0075341C /* Main */,
+				21F9F0B31EF1899E0075341C /* Resources */,
+				21F9F0961EF189300075341C /* AppDelegate.swift */,
+				21F9F0A01EF189300075341C /* Assets.xcassets */,
+				21F9F0A51EF189300075341C /* Info.plist */,
+				21F9F09D1EF189300075341C /* Snap.xcdatamodeld */,
+			);
+			path = Snap;
+			sourceTree = "<group>";
+		};
+		21F9F0AD1EF1899E0075341C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21F9F0AE1EF1899E0075341C /* ExampleCollectionViewCell.swift */,
+				21F9F0AF1EF1899E0075341C /* ExampleCollectionViewCell.xib */,
+				21F9F0B01EF1899E0075341C /* ImageProcessViewController.swift */,
+				21F9F0B11EF1899E0075341C /* ImageProcessViewController.xib */,
+				21F9F0CE1EF380740075341C /* ShareImageViewController.swift */,
+				21F9F0CF1EF380740075341C /* ShareImageViewController.xib */,
+				2140D1151EF48838004D39E5 /* MainViewController.swift */,
+				2140D1161EF48838004D39E5 /* MainViewController.xib */,
+				2140D1191EF4886A004D39E5 /* CameraFilterViewController.swift */,
+				2140D11A1EF4886A004D39E5 /* CameraFilterViewController.xib */,
+				21307AF21EF742D4007F222F /* ScreenShotViewController.swift */,
+				21307AF31EF742D4007F222F /* ScreenShotViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		21F9F0B31EF1899E0075341C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21307B011EF747A2007F222F /* circlePhoto.png */,
+				21307B031EF747A2007F222F /* deleteCross.png */,
+				21307B051EF747A2007F222F /* eltestos.png */,
+				21307B0A1EF747A2007F222F /* photoButton.png */,
+				21307B0D1EF747A2007F222F /* saveScreen.png */,
+				21307B0E1EF747A2007F222F /* shareButton.png */,
+				21307B0F1EF747A2007F222F /* swapCamera.png */,
+				21307B101EF747A2007F222F /* test.jpg */,
+				21307B121EF747A2007F222F /* undoButton.png */,
+				21F9F0D21EF3A4B70075341C /* mask_1.png */,
+				21F9F0D31EF3A4B70075341C /* mask_2.png */,
+				21F9F0D41EF3A4B70075341C /* mask_3.png */,
+				217C89F41EFAF14E00B500BF /* mask_4.png */,
+				21F9F0D61EF3A4B70075341C /* mask_5.png */,
+				21F9F0D71EF3A4B70075341C /* mask_6.png */,
+				21F9F0D81EF3A4B70075341C /* mask_7.png */,
+				21F9F0D91EF3A4B70075341C /* mask_8.png */,
+				21F9F0DA1EF3A4B70075341C /* mask_9.png */,
+				21F9F0DB1EF3A4B70075341C /* mask_10.png */,
+				21F9F0BF1EF1C0D10075341C /* banana.png */,
+				21F9F0C01EF1C0D10075341C /* monkey.png */,
+				21F9F0BB1EF196B30075341C /* cell.png */,
+				21F9F0B41EF1899E0075341C /* splash.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21F9F0C31EF2175C0075341C /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				21307B321EF77DDD007F222F /* DlibWrapper.h */,
+				21307B331EF77DDD007F222F /* DlibWrapper.mm */,
+				21307B341EF77DDD007F222F /* SessionHandler.swift */,
+				21307AF61EF74760007F222F /* captureScreen.swift */,
+				21307AF71EF74760007F222F /* fillImageButton.swift */,
+				21307AF81EF74760007F222F /* filterClass.swift */,
+				21307AF91EF74760007F222F /* processPointsClass.swift */,
+				21F9F0CC1EF37FE30075341C /* InfiniteCollectionView.swift */,
+				21F9F0CA1EF2D54E0075341C /* Model.swift */,
+				21F9F0C61EF2242F0075341C /* DragDropView.swift */,
+				21307AD21EF6D12B007F222F /* Snap-Bridging-Header.h */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		CF2CACF20225F7211E069639 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B17D3A06406726C1B0E7F24 /* Pods-Snap.debug.xcconfig */,
+				1F40F708359355D572707740 /* Pods-Snap.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DBC67ADB286E9363746E2C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21A28B8A1EF640A900D80EAA /* Accelerate.framework */,
+				21F9F0BD1EF1AA950075341C /* DragDropiOS.framework */,
+				19F14C3608C046BCEA9A0C28 /* Pods_Snap.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21F9F0921EF189300075341C /* Snap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21F9F0A81EF189300075341C /* Build configuration list for PBXNativeTarget "Snap" */;
+			buildPhases = (
+				BCCECE5BA8EE93DB5656F509 /* [CP] Check Pods Manifest.lock */,
+				21F9F08F1EF189300075341C /* Sources */,
+				21F9F0901EF189300075341C /* Frameworks */,
+				21F9F0911EF189300075341C /* Resources */,
+				9336D4E78756D10D503D0DA6 /* [CP] Embed Pods Frameworks */,
+				7B678B7A1FE16FDBE061A5D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snap;
+			productName = Snap;
+			productReference = 21F9F0931EF189300075341C /* Snap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21F9F08B1EF189300075341C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WangChengGong;
+				TargetAttributes = {
+					21F9F0921EF189300075341C = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2ZHV6UBKA4;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 21F9F08E1EF189300075341C /* Build configuration list for PBXProject "Snap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21F9F08A1EF189300075341C;
+			productRefGroup = 21F9F0941EF189300075341C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21F9F0921EF189300075341C /* Snap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21F9F0911EF189300075341C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217C89F51EFAF14E00B500BF /* mask_4.png in Resources */,
+				21F9F0C21EF1C0D10075341C /* monkey.png in Resources */,
+				21F9F0B81EF1899E0075341C /* ImageProcessViewController.xib in Resources */,
+				21F9F0E31EF3A4B70075341C /* mask_8.png in Resources */,
+				21307B261EF747A2007F222F /* test.jpg in Resources */,
+				21F9F0DD1EF3A4B70075341C /* mask_2.png in Resources */,
+				21F9F0E41EF3A4B70075341C /* mask_9.png in Resources */,
+				21F9F0D11EF380740075341C /* ShareImageViewController.xib in Resources */,
+				21307B281EF747A2007F222F /* undoButton.png in Resources */,
+				21F9F0E21EF3A4B70075341C /* mask_7.png in Resources */,
+				21F9F0E01EF3A4B70075341C /* mask_5.png in Resources */,
+				21307B241EF747A2007F222F /* shareButton.png in Resources */,
+				21EACACB1EF790AF00FA2610 /* shape_predictor_68_face_landmarks.dat in Resources */,
+				2140D11C1EF4886A004D39E5 /* CameraFilterViewController.xib in Resources */,
+				21F9F0A11EF189300075341C /* Assets.xcassets in Resources */,
+				21F9F0E51EF3A4B70075341C /* mask_10.png in Resources */,
+				21307B171EF747A2007F222F /* circlePhoto.png in Resources */,
+				21F9F0AC1EF189940075341C /* Default-568h@2x.png in Resources */,
+				21307B1B1EF747A2007F222F /* eltestos.png in Resources */,
+				21307B191EF747A2007F222F /* deleteCross.png in Resources */,
+				21307B251EF747A2007F222F /* swapCamera.png in Resources */,
+				21F9F0B61EF1899E0075341C /* ExampleCollectionViewCell.xib in Resources */,
+				21F9F0C11EF1C0D10075341C /* banana.png in Resources */,
+				21F9F0BA1EF1899E0075341C /* splash.png in Resources */,
+				21F9F0DC1EF3A4B70075341C /* mask_1.png in Resources */,
+				21307AF51EF742D4007F222F /* ScreenShotViewController.xib in Resources */,
+				21307B231EF747A2007F222F /* saveScreen.png in Resources */,
+				21F9F0DE1EF3A4B70075341C /* mask_3.png in Resources */,
+				21F9F0E11EF3A4B70075341C /* mask_6.png in Resources */,
+				2140D1181EF48838004D39E5 /* MainViewController.xib in Resources */,
+				21F9F0BC1EF196B30075341C /* cell.png in Resources */,
+				21307B201EF747A2007F222F /* photoButton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B678B7A1FE16FDBE061A5D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap/Pods-Snap-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9336D4E78756D10D503D0DA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Snap/Pods-Snap-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCCECE5BA8EE93DB5656F509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21F9F08F1EF189300075341C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2140D11B1EF4886A004D39E5 /* CameraFilterViewController.swift in Sources */,
+				21F9F0CB1EF2D54E0075341C /* Model.swift in Sources */,
+				21307B351EF77DDD007F222F /* DlibWrapper.mm in Sources */,
+				21F9F0B71EF1899E0075341C /* ImageProcessViewController.swift in Sources */,
+				21307AFA1EF74760007F222F /* captureScreen.swift in Sources */,
+				21F9F0C71EF2242F0075341C /* DragDropView.swift in Sources */,
+				21F9F0B51EF1899E0075341C /* ExampleCollectionViewCell.swift in Sources */,
+				21F9F09F1EF189300075341C /* Snap.xcdatamodeld in Sources */,
+				21307AFC1EF74760007F222F /* filterClass.swift in Sources */,
+				21307AF41EF742D4007F222F /* ScreenShotViewController.swift in Sources */,
+				21F9F0971EF189300075341C /* AppDelegate.swift in Sources */,
+				2140D1171EF48838004D39E5 /* MainViewController.swift in Sources */,
+				21F9F0D01EF380740075341C /* ShareImageViewController.swift in Sources */,
+				21F9F0CD1EF37FE30075341C /* InfiniteCollectionView.swift in Sources */,
+				21307AFD1EF74760007F222F /* processPointsClass.swift in Sources */,
+				21307B361EF77DDD007F222F /* SessionHandler.swift in Sources */,
+				21307AFB1EF74760007F222F /* fillImageButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		21F9F0A61EF189300075341C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21F9F0A71EF189300075341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21F9F0A91EF189300075341C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B17D3A06406726C1B0E7F24 /* Pods-Snap.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ZHV6UBKA4;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_JPEG_SUPPORT,
+					NDEBUG,
+					DLIB_USE_BLAS,
+					DLIB_USE_LAPACK,
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				INFOPLIST_FILE = Snap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DragDropiOS/DragDropiOS.framework/Headers\"",
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.snap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snap/Supports/Snap-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21F9F0AA1EF189300075341C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F40F708359355D572707740 /* Pods-Snap.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2ZHV6UBKA4;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DLIB_NO_GUI_SUPPORT,
+					DLIB_JPEG_SUPPORT,
+					NDEBUG,
+					DLIB_USE_BLAS,
+					DLIB_USE_LAPACK,
+				);
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				INFOPLIST_FILE = Snap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/lib";
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-iquote",
+					"\"$PODS_CONFIGURATION_BUILD_DIR/DragDropiOS/DragDropiOS.framework/Headers\"",
+					"-DDLIB_JPEG_SUPPORT",
+					"-DDLIB_NO_GUI_SUPPORT",
+					"-DNDEBUG",
+					"-DDLIB_USE_BLAS",
+					"-DDLIB_USE_LAPACK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tk.snap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snap/Supports/Snap-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21F9F08E1EF189300075341C /* Build configuration list for PBXProject "Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F9F0A61EF189300075341C /* Debug */,
+				21F9F0A71EF189300075341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21F9F0A81EF189300075341C /* Build configuration list for PBXNativeTarget "Snap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21F9F0A91EF189300075341C /* Debug */,
+				21F9F0AA1EF189300075341C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		21F9F09D1EF189300075341C /* Snap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				21F9F09E1EF189300075341C /* Snap.xcdatamodel */,
+			);
+			currentVersion = 21F9F09E1EF189300075341C /* Snap.xcdatamodel */;
+			path = Snap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 21F9F08B1EF189300075341C /* Project object */;
+}

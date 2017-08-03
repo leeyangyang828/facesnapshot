@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "ScreenShotViewController.viewDidLoad() -&gt; ():ScreenShotViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.toPass">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SessionHandler.captureOutput(AVCaptureOutput!, didOutputSampleBuffer : CMSampleBuffer!, from : AVCaptureConnection!) -&gt; ():SessionHandler.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "wrapper?.getPoints()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FacePoints.drawMask(UnsafeMutablePointer&lt;CGPoint&gt;) -&gt; ():FacePoints.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "points.leftEye[1].x">
+            </PersistentString>
+            <PersistentString
+               value = "cgpoints[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DragDropView.canDropWithDragInfo(AnyObject, inRect : CGRect) -&gt; Bool:DragDropView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageProcessViewController.handlePan(recognizer : UIPanGestureRecognizer) -&gt; ():ImageProcessViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SessionHandler.swapCamera() -&gt; ():SessionHandler.swift">
+      </ContextState>
+      <ContextState
+         contextName = "SessionHandler.(captureOutput(AVCaptureOutput!, didOutputSampleBuffer : CMSampleBuffer!, from : AVCaptureConnection!) -&gt; ()).(closure #3):SessionHandler.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Filter.drawHeart([CGPoint], side : String) -&gt; UIImageView:filterClass.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "eye[side]!.image!.size.height">
+            </PersistentString>
+            <PersistentString
+               value = "eye[side]!.image!.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "eye[side]!.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CameraFilterViewController.faceTrackerDidUpdate(UnsafeMutablePointer&lt;UnsafeMutablePointer&lt;CGPoint&gt;?&gt;, faceCounts : Int) -&gt; ():CameraFilterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "points[i][j].x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ProcessPoints.processCornerDist(CGPoint, point2 : CGPoint) -&gt; CGFloat:processPointsClass.swift">
+      </ContextState>
+      <ContextState
+         contextName = "FacePoints.drawMask(UnsafeMutablePointer&lt;UnsafeMutablePointer&lt;CGPoint&gt;?&gt;, faceCounts : Int) -&gt; ():FacePoints.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "points.eye[0].x">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CameraFilterViewController.viewDidAppear(Bool) -&gt; ():CameraFilterViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "preview.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "sessionHandler.layer.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ImageProcessViewController.addImgToPan(model : Model, rect : CGRect) -&gt; ():ImageProcessViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "::-[DlibWrapper doWorkOnSampleBuffer:inRects:](CMSampleBufferRef, NSArray *):DlibWrapper.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "(*_cgpoints).x">
+            </PersistentString>
+            <PersistentString
+               value = "_cgpoints[j][k].x">
+            </PersistentString>
+            <PersistentString
+               value = "points[0]">
+            </PersistentString>
+            <PersistentString
+               value = "_faceCounts">
+            </PersistentString>
+            <PersistentString
+               value = "(*_cgpoints).y">
+            </PersistentString>
+            <PersistentString
+               value = "(*(_cgpoints-1)).x">
+            </PersistentString>
+            <PersistentString
+               value = "convertedRectangles.size()">
+            </PersistentString>
+            <PersistentString
+               value = "j">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DragDropView.dropOverInfoInRect(CGRect) -&gt; AnyObject?:DragDropView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "SessionHandler.captureOutput(AVCaptureOutput!, didOutputMetadataObjects : [Any]!, from : AVCaptureConnection!) -&gt; ():SessionHandler.swift">
+      </ContextState>
+      <ContextState
+         contextName = "DragDropView.dropComplete(AnyObject, dropInfo : AnyObject?, atRect : CGRect) -&gt; ():DragDropView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "::-[DlibWrapper getPoints]():DlibWrapper.mm">
+         <PersistentStrings>
+            <PersistentString
+               value = "_cgpoints">
+            </PersistentString>
+            <PersistentString
+               value = "_cgpoints[67]">
+            </PersistentString>
+            <PersistentString
+               value = "_cgpoints[0][0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "CameraFilterViewController.faceTrackerDidUpdate(FacePoints?) -&gt; ():CameraFilterViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

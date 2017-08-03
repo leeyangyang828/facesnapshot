@@ -1,0 +1,15 @@
+PODS:
+  - DragDropiOS (0.1.3)
+  - SwiftGifOrigin (1.6.1)
+
+DEPENDENCIES:
+  - DragDropiOS
+  - SwiftGifOrigin
+
+SPEC CHECKSUMS:
+  DragDropiOS: 13276d44ab1e3e7c8606cc6be1aa8026fce2292a
+  SwiftGifOrigin: d6679d3ebe9df2e049a84bc52582635107b581f6
+
+PODFILE CHECKSUM: 1d87eca34d182d5a195a0d9b2bc7ee3090141ddf
+
+COCOAPODS: 1.2.1
